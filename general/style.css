@@ -19,3 +19,31 @@ div.navbar-collapse {
     background-repeat:no-repeat;
     background-image:url("http://placehold.it/800x650");
 }
+
+/* --- PRODUCT PHOTO -- */
+
+div.features h2 {
+    text-align: center;
+}
+
+div.features img {
+    display: block;
+    margin: 0 auto;   
+}
+
+div.price {
+    border: 15px solid aliceblue;
+    padding: 3em;
+    background-color: #fff;
+    text-align: center;
+}
+
+.price h4,
+.price h5,
+.price p {
+    display: block;   
+}
+
+strong.price-figure {
+    font-size: 2em;
+}
