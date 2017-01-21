@@ -48,11 +48,72 @@ strong.price-figure {
     font-size: 2em;
 }
 
+div.banner-img {
+    text-align: center;
+    padding-top: 4em;
+}
+
+button.enyo-btn {
+    border-radius: 50px;   
+}
+
+div.download-it {
+    padding: 3em;   
+}
+
+div.download-it li,
+div.download-it ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+div.media {
+    padding: 1em;   
+}
+
+div.features h2 {
+    padding: 1.75em 0;   
+}
+
+/* --- PLANS -- */
+
+div.plans-container {
+    background-color: aliceblue;   
+}
+
+div.plans-container .row:first-child {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 40em;
+    padding: 7em 0 3em 0;
+    background-color: aliceblue;
+}
+
+div.plans-container .row:nth-child(2) {
+    margin: 0 5em;
+    
+}
+
+.capitalize {
+    text-transform: uppercase;
+}
+
 /* --- CONTACT -- */
 
 div.contact-info {
     margin: 0 auto;
     text-align: center;
+    background-color: aliceblue;
+    padding: 3em 0;
+}
+
+div.contact-info h3 {
+    margin: 1em 0; 
+}
+
+div.contact-items h5 {
+    margin: 0.75em 0;   
 }
 
 div.contact-items h5 {
@@ -66,7 +127,8 @@ div.download-template {
     text-align: center;
     margin: 0 auto;
     width: 100%;
-    max-width: 40em;
+    max-width: 45em;
+    padding: 3em;
 }
 
 div.footer-img {
