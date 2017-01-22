@@ -1,5 +1,9 @@
 /* --- NAVIGATION -- */
 
+body {
+    padding-top: 3em;   
+}
+
 div.navbar-collapse {
     justify-content: flex-end;
 }
@@ -23,6 +27,14 @@ p {
     font-size: 1.75em;
 }
 
+nav.navbar a {
+    color: #fff!important;
+}
+
+nav.navbar button {
+    border-color: #fff!important;   
+}
+
 /* --- HEADER -- */
 
 .relative {
@@ -41,6 +53,11 @@ p {
 }
 
 /* --- PRODUCT PHOTO -- */
+
+section.plans {
+    background-color: #f7f9fb;
+    padding: 3em 0;
+}
 
 div.features {
     margin-top: 3em;   
