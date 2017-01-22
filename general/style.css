@@ -4,6 +4,25 @@ div.navbar-collapse {
     justify-content: flex-end;
 }
 
+nav.navigation {
+    color: #fff;
+    background-color: #0292dc;   
+}
+
+nav.navigation a {
+    color: #fff;   
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.5;
+}
+
+.plans-container h5 {
+    color: #25365d;
+    font-size: 1.75em;
+}
+
 /* --- HEADER -- */
 
 .relative {
@@ -14,13 +33,18 @@ div.navbar-collapse {
 .banner-img {
     width: 100%;
     height: 30em;
+    background: linear-gradient(rgba(255, 255, 255, 0.00), rgba(255, 255, 255, 1.00)),
+              rgba(255,255,255,0.55) url('../img/mountains.jpg');
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat;
-    background-image:url("http://placehold.it/800x650");
 }
 
 /* --- PRODUCT PHOTO -- */
+
+div.features {
+    margin-top: 3em;   
+}
 
 div.features h2 {
     text-align: center;
@@ -54,11 +78,23 @@ div.banner-img {
 }
 
 button.enyo-btn {
-    border-radius: 50px;   
+    border-radius: 50px;
+    color: #fff;
+    background-color: #25365d;
 }
 
 div.download-it {
-    padding: 1.75em;   
+    padding: 1.75em 1.75em 3em 1.75em;   
+}
+
+div.download-it h2 {
+    margin-top: 1.75em;   
+}
+
+div.macbook {
+    display: flex;
+    padding-top: 3em;
+    align-items: center;
 }
 
 div.download-it li,
@@ -82,7 +118,7 @@ div.media img.phone {
 }
 
 div.features h2 {
-    padding: 1.75em 0;   
+    padding: 0.35em 0;   
 }
 
 /* --- PLANS -- */
@@ -107,7 +143,10 @@ div.plans-container .row:nth-child(2) {
 } */
 
 .capitalize {
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+    color: #25365d;
+    font-size: 2.5em;
 }
 
 /* --- CONTACT -- */
@@ -145,9 +184,10 @@ div.download-template {
 div.footer-img {
     width: 100%;
     height: 20em;
+    background: linear-gradient(rgba(255, 255, 255, 1.00), rgba(255, 255, 255, 0.00)),
+              rgba(255,255,255,0.95) url('../img/mountains-footer.jpg');
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat;
-    background-image:url("http://placehold.it/800x300");
     margin: 0 auto;   
 }
