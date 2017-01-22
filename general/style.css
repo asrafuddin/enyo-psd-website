@@ -59,6 +59,12 @@ section.plans {
     padding: 3em 0;
 }
 
+img.macbook-features {
+    width: 100%;
+    max-width: 70em;
+    padding: 0 3em;
+}
+
 div.features {
     margin-top: 3em;   
 }
